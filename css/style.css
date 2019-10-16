@@ -2,9 +2,71 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'roboto',sans-serif;
+    text-transform: uppercase ;
+    text-shadow: 4px 4px black;
+    font-size: 40px;
+}
 h2 {
-    background: url(../img/zen.svg);
+    
     background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
+    color: white;
+    font-family: 'satisfy', cursive;
+    font-size: 14px;
 }
+header {
+    background-image: url(../img/huntington.png);
+    padding: 60px;
+    background-position: right top;
+    width: 100%
+}
+#zen-summary a {
+    color: black;  
+}
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    padding-left: 100px ;
+    padding-right: 100px;
+    color: rgb(56, 55, 55);
+    
+}
+h3 {
+    font-weight: bolder;
+    font-family: 'roboto',sans-serif\;;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+#zen-participation, #zen-benefits {
+    background-color: rgb(93, 128, 93);
+    color: white;
+    padding: 10px;
+
+}
+#zen-participation p , #zen-benefits p  {
+    color: white;
+}
+#zen-participation a {
+    color: rgb(56, 55, 55);
+}
+#zen-participation h3,#zen-benefits h3 {
+    color: black;
+}
+#zen-requirements a {
+    color: black;
+    text-decoration: none;
+   
+}
+#zen-requirements abbr{
+    text-decoration: none;      
+}
+
+
+
+    
 
